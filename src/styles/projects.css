@@ -1,0 +1,183 @@
+.projectsContainer
+{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+
+.projContent
+{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.previousProjs, .nextProjs
+{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.projectsCore
+{
+
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.loader
+{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.loader img
+{
+
+   margin-bottom: 0px;
+
+}
+
+.loader p
+{
+
+   color: #54bf8e;
+   font-size: 20px;
+   text-align: center;
+   width: auto;
+   height: auto;
+
+}
+
+.projects
+{
+
+   width: 300px;
+   height: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 5px;
+   /*transform: scale(0,0);*/
+   cursor: pointer;
+   margin: 20px;
+
+}
+
+.projects:hover .projIllustration
+{
+
+   transform: scale(1.2,1.2);
+
+}
+
+.projIllustrationCont
+{
+
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px 4px 0px 0px;
+  background-color: #36495d;
+
+}
+
+.projIllustration
+{
+
+  width: 50%;
+  height: 50%;
+
+}
+
+
+.projDesc
+{
+
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+/*  background-color: #54bf8e;*/
+/*  border: 1px solid #54bf8e;*/
+
+}
+
+.php
+{
+
+   background-color: #777BB3;
+
+}
+
+.cordova
+{
+
+   background-color: #3F4A56;
+
+}
+
+.vue
+{
+
+   background-color: #54bf8e;
+
+}
+
+.projDesc h4
+{
+
+  text-align: center;
+  color: white;
+  width: auto;
+  height: auto;
+  margin-bottom: -5px;
+  margin-top: 10px;
+
+}
+
+.projDesc p
+{
+
+  text-align: left;
+  font-size: 15px;
+  color: white;
+  width: 90%;
+  height: auto;
+
+}
